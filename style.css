@@ -1,0 +1,56 @@
+ header {
+     height: 60px;
+     width: 100%;
+     background: linear-gradient(45deg, lightblue, darkblue);
+     text-align: center;
+     color: white;
+     font-size: 50px;
+ }
+ 
+ .form-label {
+     font-size: xx-large;
+     font-weight: bolder;
+ }
+
+ /* #citySearch {
+     width: 25%; */
+ }
+
+ body {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .inline {
+     display: inline;
+     font-size: xx-large;
+     font-weight: bolder;
+ }
+
+ .container {
+     display: grid;
+     gap: 20px;
+     grid-template-columns: 25% repeat(5, 1fr);
+ }
+
+ .grid-col-span-5 {
+     grid-column: span 5;
+ }
+
+.grid-row-span-2 {
+    grid-row: span 2;
+}
+
+#currentForcast {
+    border: 2px solid darkblue;
+    /* background-color: lightblue; */
+    color: black;
+    font-size: large;
+}
+
+ .fiveDay {
+     background-color: darkblue;
+     color: white;
+     font-size: large;
+     padding: 10px;
+ }

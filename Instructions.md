@@ -1,0 +1,3 @@
+link: file:///C:/Users/ahuss/OneDrive/Desktop/UofMold/Weather%20app/index.html?
+I was able to construct a weather app that does render the current weather data for a user selected
+city as well as a five day forecast. I was also able to get the input form to clear after clicking the search button. However, you must refresh the page to select another city, otherwise it will just stack the cities and their weather information on top of one another. Technically works, but looks terrible. Two api calls were used in order to obtian the current and the five day forecasts. 
